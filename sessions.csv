@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#002145">
+  
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="apple-itunes-app" content="app-id=480883488">
+<link rel="manifest" href="/web-app-manifest/manifest.json">
+  <meta name="sentry-trace" content="36beab73063e410ab14ee59d43c1c41f-aa10632cad434f1f-0"/>
+  <title>  sessions.csv: DSCI_V 100 002/003 2025SS Introduction to Data Science
+</title>
+
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Bold-cccb897485.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Italic-4eb103b4d1.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-eb4a10fb18.css" media="screen" />
+  <link rel="stylesheet" href="https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/9c10ca144dbe9e6a3715bf538e52ac42/variables-6ceabaf6137deaa1b310c07895491bdd.css" media="all" />
+  <link rel="stylesheet" href="https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/common-f80daf8cd4.css" media="all" />
+  
+  <link rel="apple-touch-icon" href="https://instructure-uploads.s3.amazonaws.com/account_112240000000000001/attachments/16/UBC_2017_Social_Media_Avatars_Canvas_180x180_Mobile-joe.png" />
+  <link rel="icon" type="image/x-icon" href="https://instructure-uploads.s3.amazonaws.com/account_112240000000000001/attachments/15/ubc_2017_social_media_avatars_canvas_180x180_mobile_joe_0il_icon.ico" />
+
+  <link rel="stylesheet" href="https://instructure-uploads-yul.s3.ca-central-1.amazonaws.com/account_112240000000000001/attachments/31681608/ubc.css" media="all" />
+  
+  <script>if (navigator.userAgent.match(/(MSIE|Trident\/)/)) location.replace('/ie-is-not-supported.html')</script>
+  <script>
+    INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"yul.nv.instructuremedia.com","resource_domain":"yul.nv.instructuremedia.com","rtmp_domain":"yul.rtmp.instructuremedia.com","partner_id":"7","subpartner_id":"0","player_ui_conf":"0","kcw_ui_conf":"0","upload_ui_conf":"0","max_file_size_bytes":534773760,"do_analytics":false,"hide_rte_button":false,"js_uploader":true},"disableGooglePreviews":true,"logPageViews":true,"editorButtons":[{"name":"Commons Favorites","id":52,"favorite":false,"url":"https://commons-yul-prod.instructure.com/api/lti/favorite-resources","icon_url":"https://commons-yul-prod.instructure.com/img/icon_commons.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":true,"on_by_default":false,"description":"\u003cp\u003eFind and share course content\u003c/p\u003e\n"},{"name":"Embed Kaltura Media","id":42332,"favorite":true,"url":"https://canvas.161.kaf.media.ubc.ca/browseandembed/index/browseandembed","icon_url":"https://cdnsecakmi.kaltura.com/content/static/kalturalogo.png","canvas_icon_class":null,"width":1100,"height":600,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eMedia Gallery and Embed\u003c/p\u003e\n"},{"name":"Add Wiley Resources","id":55231,"favorite":false,"url":"https://lti.education.wiley.com/wpng/api/v1/ltiadvantage/oidc/login","icon_url":"https://www.wiley.com/college/wileyplus/images/resource_discovery_tool_50x50.png","canvas_icon_class":null,"width":1160,"height":660,"use_tray":false,"on_by_default":false,"description":"\u003cp\u003eWiley LTI 1.3\u003c/p\u003e\n"}]};
+    ENV = {"ASSET_HOST":"https://du11hjcvx0uqb.cloudfront.net","active_brand_config_json_url":"https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/9c10ca144dbe9e6a3715bf538e52ac42/variables-6ceabaf6137deaa1b310c07895491bdd.json","active_brand_config":{"md5":"9c10ca144dbe9e6a3715bf538e52ac42","variables":{"ic-brand-primary":"#002044","ic-brand-font-color-dark":"#2d3b45","ic-link-color":"#0055b7","ic-brand-button--primary-bgd":"#0055b7","ic-brand-button--secondary-bgd":"#00a7e1","ic-brand-global-nav-bgd":"#002145","ic-brand-global-nav-menu-item__text-color--active":"#002145","ic-brand-global-nav-menu-item__badge-text":"#002145","ic-brand-global-nav-logo-bgd":"#002145","ic-brand-header-image":"https://instructure-uploads.s3.amazonaws.com/account_112240000000000001/attachments/21/ubc_logo.png","ic-brand-watermark-opacity":"1","ic-brand-favicon":"https://instructure-uploads.s3.amazonaws.com/account_112240000000000001/attachments/15/ubc_2017_social_media_avatars_canvas_180x180_mobile_joe_0il_icon.ico","ic-brand-apple-touch-icon":"https://instructure-uploads.s3.amazonaws.com/account_112240000000000001/attachments/16/UBC_2017_Social_Media_Avatars_Canvas_180x180_Mobile-joe.png","ic-brand-msapplication-tile-square":"https://instructure-uploads.s3.amazonaws.com/account_112240000000000001/attachments/17/UBC_2017_Social_Media_Avatars_Canvas_558x558_WindowsTile-joe.png","ic-brand-msapplication-tile-wide":"https://instructure-uploads.s3.amazonaws.com/account_112240000000000001/attachments/11/UBC_2017_Social_Media_Avatars_Canvas_558x270_WindowsWideTile.png","ic-brand-right-sidebar-logo":"https://instructure-uploads.s3.amazonaws.com/account_112240000000000001/attachments/18/2_2016_UBCNarrow_Signature_BlueRGB72.png","ic-brand-Login-body-bgd-color":"#002145","ic-brand-Login-body-bgd-shadow-color":"#002145","ic-brand-Login-logo":"https://instructure-uploads.s3.amazonaws.com/account_112240000000000001/attachments/19/UBC_2017_Social_Media_Avatars_Canvas_380x150_Login.png","ic-brand-Login-Content-bgd-color":"#ffffff","ic-brand-Login-Content-border-color":"#f2f2f2","ic-brand-Login-Content-label-text-color":"#444444","ic-brand-Login-Content-password-text-color":"#444444","ic-brand-Login-footer-link-color":"#002145","ic-brand-Login-instructure-logo":"#f2f2f2"},"share":false,"name":null,"created_at":"2025-01-08T14:50:51-08:00","js_overrides":"https://instructure-uploads-yul.s3.ca-central-1.amazonaws.com/account_112240000000000001/attachments/37247675/ubc.js","css_overrides":"https://instructure-uploads-yul.s3.ca-central-1.amazonaws.com/account_112240000000000001/attachments/31681608/ubc.css","mobile_js_overrides":"","mobile_css_overrides":"","parent_md5":null},"confetti_branding_enabled":false,"url_to_what_gets_loaded_inside_the_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/9c10ca144dbe9e6a3715bf538e52ac42/variables-6ceabaf6137deaa1b310c07895491bdd.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-a370c48efb.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-eb4a10fb18.css"],"url_for_high_contrast_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/default/variables-high_contrast-6ceabaf6137deaa1b310c07895491bdd.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_high_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-1d2c45ff3b.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-eb4a10fb18.css"],"captcha_site_key":"6LftyLgZAAAAAC10tel8XGucbApMIY8-uFB_yVcN","current_user_id":"1117827","current_user_global_id":"112240000001117827","current_user_usage_metrics_id":"d5ce4fc41c0faa9dcce0daaa4a071950bf7e5d70f49f6e7ad348d237c2861a9b","current_user_roles":["user","student"],"current_user_is_student":true,"current_user_types":[],"current_user_disabled_inbox":false,"current_user_visited_tabs":null,"discussions_reporting":true,"files_domain":"cluster222.canvas-user-content.com","group_information":null,"DOMAIN_ROOT_ACCOUNT_ID":"112240000000000001","DOMAIN_ROOT_ACCOUNT_UUID":"WiYEKZJIYozJ60jtONj9XJdFwpxtMAY075lLT4pj","HORIZON_DOMAIN":null,"k12":false,"help_link_name":"Help","help_link_icon":"help","use_high_contrast":false,"auto_show_cc":false,"disable_celebrations":false,"disable_keyboard_shortcuts":false,"LTI_LAUNCH_FRAME_ALLOWANCES":["geolocation *","microphone *","camera *","midi *","encrypted-media *","autoplay *","clipboard-write *","display-capture *"],"DEEP_LINKING_POST_MESSAGE_ORIGIN":"https://canvas.ubc.ca","comment_library_suggestions_enabled":false,"SETTINGS":{"open_registration":false,"collapse_global_nav":false,"release_notes_badge_disabled":false,"can_add_pronouns":true,"show_sections_in_course_tray":true},"RAILS_ENVIRONMENT":"Production","IN_PACED_COURSE":false,"SENTRY_FRONTEND":{"dsn":"https://355a1d96717e4038ac25aa852fa79a8f@relay-yul.sentry.insops.net/388","org_slug":"instructure","base_url":"https://sentry.insops.net","normalized_route":null,"errors_sample_rate":"0.005","traces_sample_rate":"0.005","url_deny_pattern":"instructure-uploads.*amazonaws.com","revision":"canvas-lms@20250604.392"},"DATA_COLLECTION_ENDPOINT":"https://canvas-frontend-data-yul-prod.inscloudgate.net/submit","DOMAIN_ROOT_ACCOUNT_SFID":"001A000000878ZtIAI","DIRECT_SHARE_ENABLED":false,"CAN_VIEW_CONTENT_SHARES":false,"FEATURES":{"account_level_blackout_dates":false,"render_both_to_do_lists":false,"commons_new_quizzes":true,"consolidated_media_player":true,"explicit_latex_typesetting":false,"media_links_use_attachment_id":true,"permanent_page_links":true,"enhanced_course_creation_account_fetching":false,"instui_for_import_page":true,"multiselect_gradebook_filters":true,"assignment_edit_placement_not_on_announcements":false,"instui_header":false,"rce_find_replace":true,"courses_popout_sisid":true,"dashboard_graphql_integration":false,"discussion_ai_survey_link":false,"discussion_checkpoints":false,"discussion_default_sort":true,"discussion_default_expand":true,"discussion_permalink":true,"speedgrader_studio_media_capture":true,"disallow_threaded_replies_fix_alert":true,"horizon_course_setting":false,"new_quizzes_media_type":true,"validate_call_to_action":false,"new_quizzes_navigation_updates":true,"create_wiki_page_mastery_path_overrides":false,"remove_rce_resize_button":false,"create_external_apps_side_tray_overrides":false,"ams_service":false,"files_a11y_rewrite_toggle":false,"files_a11y_rewrite":false,"product_tours":false,"create_course_subaccount_picker":true,"file_verifiers_for_quiz_links":true,"lti_deep_linking_module_index_menu_modal":true,"lti_registrations_next":false,"lti_registrations_page":false,"lti_registrations_usage_data":false,"lti_asset_processor":false,"buttons_and_icons_root_account":true,"extended_submission_state":false,"scheduled_page_publication":true,"send_usage_metrics":false,"rce_transform_loaded_content":false,"disable_iframe_sandbox_file_show":false,"mobile_offline_mode":false,"react_discussions_post":true,"instui_nav":false,"lti_registrations_discover_page":false,"account_level_mastery_scales":false,"non_scoring_rubrics":true,"top_navigation_placement":false,"rubric_criterion_range":true,"rce_lite_enabled_speedgrader_comments":true,"lti_toggle_placements":true,"login_registration_ui_identity":false,"lti_apps_page_instructors":false,"course_paces_skip_selected_days":false,"course_pace_download_document":false,"course_pace_draft_state":false,"course_pace_time_selection":false,"course_pace_pacing_status_labels":false,"course_pace_pacing_with_mastery_paths":false,"course_pace_weighted_assignments":false,"modules_requirements_allow_percentage":false,"course_pace_allow_bulk_pace_assign":false,"account_survey_notifications":false,"embedded_release_notes":false,"assign_to_differentiation_tags":false,"canvas_k6_theme":false,"new_math_equation_handling":true},"current_user":{"id":"1117827","anonymous_id":"nyir","display_name":"Nick Wu","avatar_image_url":"https://canvas.ubc.ca/images/thumbnails/36408481/rkqrELnv1hg3lfW0PeH5yiQWTQ9XdTlmWDL8c7as","html_url":"https://canvas.ubc.ca/about/1117827","pronouns":null,"avatar_is_fallback":false,"email":"nickwu6633@gmail.com"},"current_user_is_admin":false,"page_view_update_url":"/page_views/51205d4b-5849-4512-9bb7-e9b0d5e569d7?page_view_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiNTEyMDVkNGItNTg0OS00NTEyLTliYjctZTliMGQ1ZTU2OWQ3IiwidSI6MTEyMjQwMDAwMDAxMTE3ODI3LCJjIjoiMjAyNS0wNi0xNFQwMDoxNjoxMy43M1oifQ.rSJ3jWK_61UBUYYx-yzLlS08Ue4umxUEvjiEUCITrAg","context_asset_string":"course_165752","ping_url":"https://canvas.ubc.ca/api/v1/courses/165752/ping","TIMEZONE":"America/Los_Angeles","CONTEXT_TIMEZONE":"America/Los_Angeles","LOCALES":["en-CA","en"],"BIGEASY_LOCALE":"en_CA","FULLCALENDAR_LOCALE":"en-ca","MOMENT_LOCALE":"en-ca","rce_auto_save_max_age_ms":86400000,"K5_USER":false,"USE_CLASSIC_FONT":false,"K5_HOMEROOM_COURSE":false,"K5_SUBJECT_COURSE":false,"LOCALE_TRANSLATION_FILE":"/dist/javascripts/translations/en-CA-ee9bc2b7a0.json","ACCOUNT_ID":"1302","user_cache_key":"9ea85e4c3c9f5ca1b8f6c6ee01c4cf74a07f98a77cf99e07525340777e5a4cf1bf970d84d70fbf24b649bd9e0e87a2cbbf369368152bd95c54db4798ebb05669","horizon_course":false,"HORIZON_ACCOUNT":false,"current_context":{"id":"165752","name":"DSCI_V 100 002/003 2025SS Introduction to Data Science","type":"Course","url":"https://canvas.ubc.ca/courses/165752"},"notices":[],"active_context_tab":"files"};
+    BRANDABLE_CSS_HANDLEBARS_INDEX = [["new_styles_normal_contrast","new_styles_high_contrast","new_styles_normal_contrast_rtl","new_styles_high_contrast_rtl","new_styles_normal_contrast_dyslexic","new_styles_high_contrast_dyslexic"],{"10":["908ffbc673",0,"d5c9044c6e",2,0,0],"15":["c8540c43a4",0,"0a2196be1d",2,0,0],"19":["df5777ed9c"],"61":["d5c4afc14e","ebb835cdef","384361a056","2e0ba247d5",0,1],"67":["db2aeb63d1",0,"32c90f1518",2,0,0],"71":["b848cc547a","83ae671549","d1c7bac7c6","0888a4a9e7",0,1],"06":["ba28819778",0,"96b99aafe5",2,0,0],"f0":["b349f31f5e",0,0,0,0,0],"c8":["f0a308d011","8041fc9e65","74aaf5a5d7","9948c8b351",0,1],"1e":["834e660fc6","35fd7c2fa0","99d344b95a","3de47096dc",0,1],"b3":["336edad65b",0,"9838b0e53d",2,0,0],"0c":["4dae5befd2",0,"c18876be89",2,0,0],"da":["b5a7f9cd8f","6e65f5abf7","773390ae11","6481b459be",0,1],"1d":["2128789890",0,"e568085637",2,0,0],"08":["64bff5a97d"],"e2":["79d37f210d"],"9f":["d39b291ba6",0,0,0,0,0],"2b":["20b6964699","b11dc54da6","62fe3ea30b","6bb4a7ae9e",0,1],"2c":["8a926fc28b",0,0,0,0,0],"c2":["6f2721ae01"],"9c":["c31821c764",0,"1693aba1da",2,0,0],"c5":["b5d5bef953","09b4a0b487","27a133737e","2098769aea",0,1],"f2":["51574f9b13"]}]
+      REMOTES = {};
+  </script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/9c10ca144dbe9e6a3715bf538e52ac42/variables-6ceabaf6137deaa1b310c07895491bdd.js" defer="defer"></script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/dist/timezone/America/Los_Angeles-6699c54112.js" defer="defer"></script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/dist/timezone/America/Los_Angeles-6699c54112.js" defer="defer"></script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/dist/timezone/en_CA-21c9309bc0.js" defer="defer"></script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/moment/locale/en-ca-chunk-ee6da1105f419aa6.js" defer="defer"></script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/react-entry-b32da88e6bf01636.js" crossorigin="anonymous" defer="defer"></script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/main-entry-d14aef6e89e3b11a.js" crossorigin="anonymous" defer="defer"></script>
+<script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('module_sequence_footer');
+(window.bundles || (window.bundles = [])).push('file_show');
+(window.bundles || (window.bundles = [])).push('navigation_header');
+//]]>
+</script>
+  
+</head>
+
+<body class="with-left-side course-menu-expanded files primary-nav-expanded context-course_165752 responsive_student_grades_page">
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+
+<div id="flash_message_holder"></div>
+<div id="flash_screenreader_holder"></div>
+
+<div id="application" class="ic-app ">
+  
+
+
+
+
+<header id="mobile-header" class="no-print">
+  <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-hamburger">
+    <i class="icon-solid icon-hamburger"></i>
+    <span id="mobileHeaderInboxUnreadBadge" class="menu-item__badge" style="min-width: 0; top: 12px; height: 12px; right: 6px; display:none;"></span>
+    <span class="screenreader-only">Global Navigation Menu</span>
+  </button>
+  <div class="mobile-header-space"></div>
+    <a class="mobile-header-title expandable" href="/courses/165752/files" role="button" aria-controls="mobileContextNavContainer">
+      <div>Files</div>
+        <div>sessions.csv</div>
+    </a>
+    <div class="mobile-header-space"></div>
+    <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-arrow" aria-label="Navigation Menu">
+      <i class="icon-arrow-open-down" id="mobileHeaderArrowIcon"></i>
+    </button>
+</header>
+<nav id="mobileContextNavContainer"></nav>
+
+<header id="header" class="ic-app-header no-print " aria-label="Global Header">
+  <a href="#content" id="skip_navigation_link">Skip To Content</a>
+  <div role="region" class="ic-app-header__main-navigation" aria-label="Global Navigation">
+      <div class="ic-app-header__logomark-container">
+        <a href="https://canvas.ubc.ca/" class="ic-app-header__logomark">
+          <span class="screenreader-only">Dashboard</span>
+        </a>
+      </div>
+    <ul id="menu" class="ic-app-header__menu-list">
+        <li class="menu-item ic-app-header__menu-list-item ">
+          <a id="global_nav_profile_link" role="button" href="/profile/settings" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container">
+              <div aria-hidden="true" class="fs-exclude ic-avatar ">
+                <img src="https://canvas.ubc.ca/images/thumbnails/36408481/rkqrELnv1hg3lfW0PeH5yiQWTQ9XdTlmWDL8c7as" alt="Nick Wu" />
+              </div>
+              <span class="menu-item__badge"></span>
+            </div>
+            <div class="menu-item__text">
+              Account
+            </div>
+          </a>
+        </li>
+      <li class="ic-app-header__menu-list-item ">
+        <a id="global_nav_dashboard_link" href="https://canvas.ubc.ca/" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--dashboard" version="1.1" x="0" y="0" viewBox="0 0 280 200" enable-background="new 0 0 280 200" xml:space="preserve"><path d="M273.09,180.75H197.47V164.47h62.62A122.16,122.16,0,1,0,17.85,142a124,124,0,0,0,2,22.51H90.18v16.29H6.89l-1.5-6.22A138.51,138.51,0,0,1,1.57,142C1.57,65.64,63.67,3.53,140,3.53S278.43,65.64,278.43,142a137.67,137.67,0,0,1-3.84,32.57ZM66.49,87.63,50.24,71.38,61.75,59.86,78,76.12Zm147,0L202,76.12l16.25-16.25,11.51,11.51ZM131.85,53.82v-23h16.29v23Zm15.63,142.3a31.71,31.71,0,0,1-28-16.81c-6.4-12.08-15.73-72.29-17.54-84.25a8.15,8.15,0,0,1,13.58-7.2c8.88,8.21,53.48,49.72,59.88,61.81a31.61,31.61,0,0,1-27.9,46.45ZM121.81,116.2c4.17,24.56,9.23,50.21,12,55.49A15.35,15.35,0,1,0,161,157.3C158.18,152,139.79,133.44,121.81,116.2Z" /></svg>
+
+          </div>
+          <div class="menu-item__text">
+            Dashboard
+          </div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item ic-app-header__menu-list-item--active">
+          <a id="global_nav_courses_link" role="button" href="/courses" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--courses" version="1.1" x="0" y="0" viewBox="0 0 280 259" enable-background="new 0 0 280 259" xml:space="preserve"><path d="M73.31,198c-11.93,0-22.22,8-24,18.73a26.67,26.67,0,0,0-.3,3.63v.3a22,22,0,0,0,5.44,14.65,22.47,22.47,0,0,0,17.22,8H200V228.19h-134V213.08H200V198Zm21-105.74h90.64V62H94.3ZM79.19,107.34V46.92H200v60.42Zm7.55,30.21V122.45H192.49v15.11ZM71.65,16.71A22.72,22.72,0,0,0,49,39.36V190.88a41.12,41.12,0,0,1,24.32-8h157V16.71ZM33.88,39.36A37.78,37.78,0,0,1,71.65,1.6H245.36V198H215.15v45.32h22.66V258.4H71.65a37.85,37.85,0,0,1-37.76-37.76Z"/></svg>
+
+            </div>
+            <div class="menu-item__text">
+              Courses
+            </div>
+          </a>
+        </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+        <a id="global_nav_calendar_link" href="/calendar" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--calendar" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M197.07,213.38h16.31V197.07H197.07Zm-16.31,16.31V180.76h48.92v48.92Zm-48.92-16.31h16.31V197.07H131.85Zm-16.31,16.31V180.76h48.92v48.92ZM66.62,213.38H82.93V197.07H66.62ZM50.32,229.68V180.76H99.24v48.92Zm146.75-81.53h16.31V131.85H197.07Zm-16.31,16.31V115.54h48.92v48.92Zm-48.92-16.31h16.31V131.85H131.85Zm-16.31,16.31V115.54h48.92v48.92ZM66.62,148.15H82.93V131.85H66.62ZM50.32,164.46V115.54H99.24v48.92ZM34,262.29H246V82.93H34ZM246,66.62V42.16A8.17,8.17,0,0,0,237.84,34H213.38v8.15a8.15,8.15,0,1,1-16.31,0V34H82.93v8.15a8.15,8.15,0,0,1-16.31,0V34H42.16A8.17,8.17,0,0,0,34,42.16V66.62Zm-8.15-48.92a24.49,24.49,0,0,1,24.46,24.46V278.6H17.71V42.16A24.49,24.49,0,0,1,42.16,17.71H66.62V9.55a8.15,8.15,0,0,1,16.31,0v8.15H197.07V9.55a8.15,8.15,0,1,1,16.31,0v8.15Z"/></svg>
+
+          </div>
+          <div class="menu-item__text">
+            Calendar
+          </div>
+        </a>
+      </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+      <!-- TODO: Add back global search when available -->
+        <a id="global_nav_conversations_link" href="/conversations" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container">
+            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--inbox" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M91.72,120.75h96.56V104.65H91.72Zm0,48.28h80.47V152.94H91.72Zm0-96.56h80.47V56.37H91.72Zm160.94,34.88H228.52V10.78h-177v96.56H27.34A24.17,24.17,0,0,0,3.2,131.48V244.14a24.17,24.17,0,0,0,24.14,24.14H252.66a24.17,24.17,0,0,0,24.14-24.14V131.48A24.17,24.17,0,0,0,252.66,107.34Zm0,16.09a8.06,8.06,0,0,1,8,8v51.77l-32.19,19.31V123.44ZM67.58,203.91v-177H212.42v177ZM27.34,123.44H51.48v79.13L19.29,183.26V131.48A8.06,8.06,0,0,1,27.34,123.44ZM252.66,252.19H27.34a8.06,8.06,0,0,1-8-8V202l30,18H230.75l30-18v42.12A8.06,8.06,0,0,1,252.66,252.19Z"/></svg>
+</span>
+            <span class="menu-item__badge"></span>
+          </div>
+          <div class="menu-item__text">
+            Inbox
+          </div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item" >
+          <a id="global_nav_history_link" role="button" href="#" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg viewBox="0 0 1920 1920" class="ic-icon-svg menu-item__icon svg-icon-history" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M960 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.125 379.934 847.059 847.059 847.059 467.125 0 847.059-379.934 847.059-847.059 0-467.125-379.934-847.059-847.059-847.059M960 1920C430.645 1920 0 1489.355 0 960S430.645 0 960 0s960 430.645 960 960-430.645 960-960 960m417.905-575.955L903.552 988.28V395.34h112.941v536.47l429.177 321.77-67.765 90.465z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
+</svg>
+            </div>
+            <div class="menu-item__text">
+              History
+            </div>
+          </a>
+        </li>
+        
+
+      <li class="ic-app-header__menu-list-item">
+        <a id="global_nav_help_link" role="button" class="ic-app-header__menu-list-link" data-track-category="help system" data-track-label="help button" href="https://help.instructure.com">
+          <div class="menu-item-icon-container" role="presentation">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg menu-item__icon svg-icon-help" version="1.1" x="0" y="0" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve" fill="currentColor"><path d="M100,127.88A11.15,11.15,0,1,0,111.16,139,11.16,11.16,0,0,0,100,127.88Zm8.82-88.08a33.19,33.19,0,0,1,23.5,23.5,33.54,33.54,0,0,1-24,41.23,3.4,3.4,0,0,0-2.74,3.15v9.06H94.42v-9.06a14.57,14.57,0,0,1,11.13-14,22.43,22.43,0,0,0,13.66-10.27,22.73,22.73,0,0,0,2.31-17.37A21.92,21.92,0,0,0,106,50.59a22.67,22.67,0,0,0-19.68,3.88,22.18,22.18,0,0,0-8.65,17.64H66.54a33.25,33.25,0,0,1,13-26.47A33.72,33.72,0,0,1,108.82,39.8ZM100,5.2A94.8,94.8,0,1,0,194.8,100,94.91,94.91,0,0,0,100,5.2m0,178.45A83.65,83.65,0,1,1,183.65,100,83.73,83.73,0,0,1,100,183.65" transform="translate(-5.2 -5.2)"/></svg>
+
+            <span class="menu-item__badge"></span>
+          </div>
+          <div class="menu-item__text">
+            Help
+          </div>
+</a>      </li>
+    </ul>
+  </div>
+  <div class="ic-app-header__secondary-navigation">
+    <ul class="ic-app-header__menu-list">
+      <li class="menu-item ic-app-header__menu-list-item">
+        <a
+          id="primaryNavToggle"
+          role="button"
+          href="#"
+          class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle"
+          aria-label="Minimize global navigation"
+          title="Minimize global navigation"
+        >
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+  <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"/>
+</svg>
+
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="global_nav_tray_container"></div>
+  <div id="global_nav_tour"></div>
+</header>
+
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="about:blank" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+        <div class="ic-app-nav-toggle-and-crumbs no-print">
+            <button type="button" id="courseMenuToggle" class="Button Button--link ic-app-course-nav-toggle" aria-live="polite" aria-label="Hide Courses Navigation Menu">
+              <i class="icon-hamburger" aria-hidden="true"></i>
+            </button>
+
+          <div class="ic-app-crumbs ">
+              <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs"><ul><li class="home"><a href="/"><span class="ellipsible"><i class="icon-home"
+   title="My Dashboard">
+  <span class="screenreader-only">My Dashboard</span>
+</i>
+</span></a></li><li><a href="/courses/165752/files"><span class="ellipsible">Files</span></a></li><li><a href="/courses/165752/files/39494592"><span class="ellipsible">sessions.csv</span></a></li></ul></nav>
+          </div>
+
+
+          <div class="right-of-crumbs">
+          </div>
+
+        </div>
+    <div id="main" class="ic-Layout-columns">
+        <div class="ic-Layout-watermark" aria-hidden="true"></div>
+        <div id="left-side"
+          class="ic-app-course-menu ic-sticky-on list-view"
+          style="display: block"
+          >
+          <div id="sticky-container" class="ic-sticky-frame">
+              <span id="section-tabs-header-subtitle" class="ellipsis">2025SS_V</span>
+            <nav role="navigation" aria-label="Courses Navigation Menu"><ul id="section-tabs"><li class="section"><a href="/courses/165752" id="home-link" class="home">Home</a></li><li class="section"><a href="/courses/165752/announcements" id="announcements-link" class="announcements">Announcements</a></li><li class="section"><a href="/courses/165752/external_tools/58536?display=borderless" id="jupyterdsci100-link" class="context_external_tool_58536" target="_blank">JupyterDSCI100</a></li><li class="section"><a href="/courses/165752/external_tools/201?display=borderless" id="piazza-link" class="context_external_tool_201" target="_blank">Piazza</a></li><li class="section"><a href="/courses/165752/external_tools/15408" id="zoom-link" class="context_external_tool_15408">Zoom</a></li><li class="section"><a href="/courses/165752/grades" id="grades-link" class="grades">Grades</a></li><li class="section"><a href="/courses/165752/users" id="people-link" class="people">People</a></li><li class="section"><a href="/courses/165752/assignments" id="assignments-link" class="assignments">Assignments</a></li><li class="section"><a href="/courses/165752/quizzes" id="quizzes-link" class="quizzes">Quizzes</a></li><li class="section"><a href="/courses/165752/external_tools/44054" id="iclicker-cloud-link" class="context_external_tool_44054">iClicker Cloud</a></li><li class="section"><a href="/courses/165752/external_tools/42334" id="my-media-link" class="context_external_tool_42334">My Media</a></li><li class="section"><a href="/courses/165752/external_tools/42332" id="media-gallery-link" class="context_external_tool_42332">Media Gallery</a></li><li class="section"><a href="/courses/165752/external_tools/53187" id="course-evaluation-link" class="context_external_tool_53187">Course Evaluation</a></li><li class="section"><a href="/courses/165752/external_tools/58635?display=borderless" id="gradescope-link" class="context_external_tool_58635" target="_blank">Gradescope</a></li></ul></nav>
+          </div>
+        </div>
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+          
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            
+  <h2>sessions.csv</h2>
+  <div>
+    <span style="font-size: 1.2em;">
+      <a download="true" href="/courses/165752/files/39494592/download?download_frd=1">Download sessions.csv</a>
+    </span> (186 KB)
+  </div>
+    <div id="doc_preview" data-canvadoc_session_url="/api/v1/canvadoc_session?blob=%7B%22anonymous_instructor_annotations%22:null,%22enable_annotations%22:null,%22moderated_grading_allow_list%22:null,%22submission_id%22:null,%22user_id%22:112240000001117827,%22attachment_id%22:39494592,%22type%22:%22canvadoc%22%7D&amp;hmac=12e49087793c235bcdd58e5bff00df2dc020e21f" data-attachment_id="39494592" data-mimetype="text/csv" data-attachment_view_inline_ping_url="https://canvas.ubc.ca/courses/165752/files/39494592/inline_view" data-attachment_preview_processing="true"></div>
+
+  <div id="sequence_footer" data-course-id="165752" data-asset-id="39494592" data-asset-type="File"></div>
+
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side" role="complementary">
+            
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <div id="page_view_id">51205d4b-5849-4512-9bb7-e9b0d5e569d7</div>
+    </div>
+  <div id='aria_alerts' class='hide-text affix' role="alert" aria-live="assertive"></div>
+  <div id='StudentTray__Container'></div>
+  <div id="react-router-portals"></div>
+  
+
+  <iframe src="https://sso.canvaslms.com/post_message_forwarding?rev=59677caad5-de8233d392aa15f4&amp;token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJwYXJlbnRfZG9tYWluIjoiY2FudmFzLnViYy5jYSJ9.XoHv0vPTRoCi4axxJBKJmSZgrh5BrwUGt7dommrk8a0XfqdkbP8OpaLCkktwvjQ7sGohhiXTCHBE96y8iSGbTg" name="post_message_forwarding" title="post_message_forwarding" id="post_message_forwarding" sandbox="allow-scripts allow-same-origin" style="display:none;"></iframe>
+
+
+
+<script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('inst_fs_service_worker');
+//]]>
+</script>
+<script src="https://instructure-uploads-yul.s3.ca-central-1.amazonaws.com/account_112240000000000001/attachments/37247675/ubc.js" defer="defer"></script>
+
+
+</div> <!-- #application -->
+</body>
+</html>
